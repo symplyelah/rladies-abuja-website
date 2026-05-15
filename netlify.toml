@@ -1,0 +1,9 @@
+[build]
+  command = """
+  curl -sL https://quarto.org/download/latest/quarto-linux-amd64.tar.gz | tar xz &&
+  ./quarto-*/bin/quarto render
+  """
+  publish = "_site"
+
+[build.environment]
+  QUARTO_VERSION = "1.5.56"
