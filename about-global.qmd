@@ -1,0 +1,120 @@
+---
+title: "R-Ladies Global"
+page-layout: custom
+---
+
+```{=html}
+
+<!-- HERO -->
+<section style="background:linear-gradient(135deg,#1a001a 0%,#3d0040 50%,#88398A 100%);padding:5rem 1.5rem 4rem;text-align:center;">
+  <div style="max-width:750px;margin:0 auto;">
+    <span style="display:inline-block;background:rgba(244,162,97,.2);border:1px solid rgba(244,162,97,.5);color:#F4A261;font-size:.75rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;padding:.4rem 1rem;border-radius:100px;margin-bottom:1.25rem;">The Parent Body</span>
+    <h1 style="color:white;font-family:'Fraunces',serif;font-size:clamp(2rem,5vw,3.5rem);font-weight:900;margin-bottom:1rem;">R-Ladies Global</h1>
+    <p style="color:rgba(255,255,255,.78);font-size:1.05rem;line-height:1.8;max-width:620px;margin:0 auto;">A worldwide organisation promoting gender diversity in the R and data science community — built entirely by volunteers, for everyone.</p>
+  </div>
+</section>
+
+<!-- ORIGIN STORY + MISSION -->
+<section style="padding:5rem 1.5rem;background:#fdf8fe;">
+  <div style="max-width:1000px;margin:0 auto;">
+
+    <div style="display:flex;align-items:center;gap:1rem;margin-bottom:2.5rem;">
+      <div style="width:4px;height:48px;background:linear-gradient(180deg,#88398A,#F4A261);border-radius:4px;flex-shrink:0;"></div>
+      <div>
+        <span style="font-size:.7rem;font-weight:800;color:#88398A;text-transform:uppercase;letter-spacing:.1em;">Origin Story</span>
+        <h2 style="font-family:'Fraunces',serif;color:#3d0040;margin:.2rem 0 0;font-size:1.9rem;">How It All Started</h2>
+      </div>
+    </div>
+
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:2.5rem;margin-bottom:2.5rem;">
+      <div>
+        <p style="font-size:1rem;color:#444;line-height:1.85;margin-bottom:1rem;">
+          R-Ladies was founded on <strong>1 October 2012</strong> by <strong>Gabriela de Queiroz</strong> in San Francisco, California. After attending several free meetups and learning a great deal from the community, she wanted to give back — and organised the very first R-Ladies event. Three more independent chapters followed over the next few years: Taipei (2014), Twin Cities (2015), and London (2016).
+        </p>
+        <p style="font-size:1rem;color:#444;line-height:1.85;">
+          At the <strong>useR! 2016 conference</strong>, the San Francisco and London chapters met in person and recognised the need for global coordination. Gabriela de Queiroz, Erin LeDell, Chiin-Rui Tan, Alice Daish, Hannah Frick, Rachel Kirkham, Claudia Vitolo, and Heather Turner applied for an R Consortium grant to support global expansion. <strong>R-Ladies Global was born</strong>, and the grant was awarded in September 2016.
+        </p>
+      </div>
+      <div>
+        <p style="font-size:1rem;color:#444;line-height:1.85;margin-bottom:1rem;">
+          R-Ladies is a worldwide organisation whose mission is to promote gender diversity in the R community. The R community has historically suffered from the underrepresentation of women across every role — as leaders, package developers, conference speakers, educators, and users.
+        </p>
+        <p style="font-size:1rem;color:#444;line-height:1.85;">
+          Since 2016, the organisation has grown from a handful of chapters to a truly global network, run entirely by volunteers who give their time to champion a more inclusive data science world.
+        </p>
+      </div>
+    </div>
+
+    <!-- STATS ROW -->
+    <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:1rem;margin:2.5rem 0;">
+      <div style="background:white;border-radius:14px;padding:1.5rem;text-align:center;border:1px solid #f0e0f1;box-shadow:0 2px 12px rgba(136,57,138,.06);">
+        <div style="font-size:2.2rem;font-weight:900;color:#88398A;font-family:'Fraunces',serif;">219</div>
+        <div style="font-size:.8rem;color:#777;margin-top:.25rem;font-weight:600;">Chapters worldwide</div>
+      </div>
+      <div style="background:white;border-radius:14px;padding:1.5rem;text-align:center;border:1px solid #f0e0f1;box-shadow:0 2px 12px rgba(136,57,138,.06);">
+        <div style="font-size:2.2rem;font-weight:900;color:#88398A;font-family:'Fraunces',serif;">63</div>
+        <div style="font-size:.8rem;color:#777;margin-top:.25rem;font-weight:600;">Countries represented</div>
+      </div>
+      <div style="background:white;border-radius:14px;padding:1.5rem;text-align:center;border:1px solid #f0e0f1;box-shadow:0 2px 12px rgba(136,57,138,.06);">
+        <div style="font-size:2.2rem;font-weight:900;color:#88398A;font-family:'Fraunces',serif;">100K+</div>
+        <div style="font-size:.8rem;color:#777;margin-top:.25rem;font-weight:600;">Members globally</div>
+      </div>
+      <div style="background:white;border-radius:14px;padding:1.5rem;text-align:center;border:1px solid #f0e0f1;box-shadow:0 2px 12px rgba(136,57,138,.06);">
+        <div style="font-size:2.2rem;font-weight:900;color:#88398A;font-family:'Fraunces',serif;">3,943+</div>
+        <div style="font-size:.8rem;color:#777;margin-top:.25rem;font-weight:600;">Events hosted</div>
+      </div>
+    </div>
+
+    <!-- MISSION CALLOUT -->
+    <div style="background:linear-gradient(135deg,#3d0040,#88398A);border-radius:16px;padding:2rem 2.5rem;color:white;">
+      <h3 style="font-family:'Fraunces',serif;color:#F4A261;font-size:1.1rem;margin-bottom:.75rem;text-transform:uppercase;letter-spacing:.05em;">Our Mission</h3>
+      <p style="font-size:1rem;line-height:1.85;margin:0;color:rgba(255,255,255,.9);">
+        "To achieve proportionate representation by encouraging, inspiring, and empowering people of genders currently underrepresented in the R community — building a collaborative global network of R leaders, mentors, learners, and developers to facilitate individual and collective progress worldwide."
+      </p>
+      <div style="margin-top:1.25rem;">
+        <a href="https://rladies.org" target="_blank" style="color:#F4A261;font-weight:700;font-size:.88rem;text-decoration:none;">→ Visit rladies.org</a>
+      </div>
+    </div>
+
+    <!-- WHAT R-LADIES OFFERS -->
+    <div style="margin-top:3rem;">
+      <h3 style="font-family:'Fraunces',serif;color:#3d0040;font-size:1.4rem;margin-bottom:1.5rem;">What R-Ladies Global Offers</h3>
+      <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:1rem;">
+        <div style="background:white;border-radius:12px;padding:1.25rem;border:1px solid #f0e0f1;">
+          <div style="font-size:1.8rem;margin-bottom:.6rem;">📋</div>
+          <h4 style="color:#5c1a5e;font-size:.95rem;margin-bottom:.4rem;">R-Ladies Directory</h4>
+          <p style="font-size:.82rem;color:#777;line-height:1.6;margin:0;">A searchable listing of 1,600+ women and gender minority R experts — available to conference organisers, journalists, and employers looking for speakers or consultants.</p>
+        </div>
+        <div style="background:white;border-radius:12px;padding:1.25rem;border:1px solid #f0e0f1;">
+          <div style="font-size:1.8rem;margin-bottom:.6rem;">🔍</div>
+          <h4 style="color:#5c1a5e;font-size:.95rem;margin-bottom:.4rem;">Abstract Review Network</h4>
+          <p style="font-size:.82rem;color:#777;line-height:1.6;margin:0;">Submit a conference talk proposal, diversity scholarship application, or grant to the global network and receive expert feedback before you hit send.</p>
+        </div>
+        <div style="background:white;border-radius:12px;padding:1.25rem;border:1px solid #f0e0f1;">
+          <div style="font-size:1.8rem;margin-bottom:.6rem;">💬</div>
+          <h4 style="color:#5c1a5e;font-size:.95rem;margin-bottom:.4rem;">Global Slack Community</h4>
+          <p style="font-size:.82rem;color:#777;line-height:1.6;margin:0;">A vibrant Slack workspace connecting R-Ladies from every chapter worldwide — for collaboration, mentorship, job opportunities, and everyday R help.</p>
+        </div>
+        <div style="background:white;border-radius:12px;padding:1.25rem;border:1px solid #f0e0f1;">
+          <div style="font-size:1.8rem;margin-bottom:.6rem;">🤝</div>
+          <h4 style="color:#5c1a5e;font-size:.95rem;margin-bottom:.4rem;">Mentorship Programme</h4>
+          <p style="font-size:.82rem;color:#777;line-height:1.6;margin:0;">Pairs emerging R users with experienced practitioners for guidance on career paths, package development, and research.</p>
+        </div>
+        <div style="background:white;border-radius:12px;padding:1.25rem;border:1px solid #f0e0f1;">
+          <div style="font-size:1.8rem;margin-bottom:.6rem;">🌍</div>
+          <h4 style="color:#5c1a5e;font-size:.95rem;margin-bottom:.4rem;">Local Chapters</h4>
+          <p style="font-size:.82rem;color:#777;line-height:1.6;margin:0;">The heart of R-Ladies — 219 chapters running in-person and online meetups in dozens of languages, free of charge, for all skill levels.</p>
+        </div>
+        <div style="background:white;border-radius:12px;padding:1.25rem;border:1px solid #f0e0f1;">
+          <div style="font-size:1.8rem;margin-bottom:.6rem;">🏗️</div>
+          <h4 style="color:#5c1a5e;font-size:.95rem;margin-bottom:.4rem;">100% Volunteer-driven</h4>
+          <p style="font-size:.82rem;color:#777;line-height:1.6;margin:0;">Every organiser, reviewer, mentor, and global team member is a volunteer. The organisation runs entirely on community goodwill and R Consortium support.</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<div class="flag-stripe"></div>
+```

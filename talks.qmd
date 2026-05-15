@@ -1,0 +1,216 @@
+---
+title: "Talks"
+page-layout: custom
+---
+
+```{=html}
+
+<!-- PAGE HERO -->
+<section style="background:linear-gradient(135deg,#1a001a 0%,#3d0040 50%,#88398A 100%);padding:5rem 1.5rem 4rem;text-align:center;">
+  <div style="max-width:700px;margin:0 auto;">
+    <span style="display:inline-block;background:rgba(244,162,97,.2);border:1px solid rgba(244,162,97,.5);color:#F4A261;font-size:.75rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;padding:.4rem 1rem;border-radius:100px;margin-bottom:1.25rem;">YouTube · Free to Watch</span>
+    <h1 style="color:white;font-family:'Fraunces',serif;font-size:clamp(2rem,5vw,3.5rem);font-weight:900;margin-bottom:1rem;">Talks, Tutorials<br>& <em>Webinars</em></h1>
+    <p style="color:rgba(255,255,255,.75);font-size:1.05rem;line-height:1.7;">Every session we host is recorded and made freely available. Watch, learn, and grow at your own pace.</p>
+    <div style="margin-top:2rem;">
+      <a href="https://www.youtube.com/@r-ladiesabuja/videos" target="_blank" class="btn-rladies">▶ Visit Our YouTube Channel</a>
+    </div>
+  </div>
+</section>
+
+<!-- FEATURED TALKS (auto-sorted by JS) -->
+<section class="section section-soft" style="padding:5rem 1.5rem;">
+  <div style="max-width:1100px;margin:0 auto;">
+
+    <div class="section-header reveal">
+      <span class="section-eyebrow">Featured Talks</span>
+      <h2>Recorded Sessions</h2>
+      <p>Automatically sorted — newest talks appear first.</p>
+    </div>
+
+    <div id="talks-container"></div>
+
+    <!-- EARLIER TALKS -->
+    <div class="reveal" style="margin-top:3rem;">
+      <div class="section-header">
+        <span class="section-eyebrow">More Talks</span>
+        <h2>Earlier Sessions</h2>
+      </div>
+      <div class="row g-3 stagger">
+
+        <div class="col-md-6 col-lg-4 reveal">
+          <div style="background:white;border-radius:12px;padding:1.25rem;border:1px solid #f0e0f1;height:100%;">
+            <span style="font-size:.65rem;font-weight:800;text-transform:uppercase;letter-spacing:.1em;color:#88398A;">Text Analysis</span>
+            <h4 style="font-family:'Fraunces',serif;color:#5c1a5e;font-size:1rem;margin:.4rem 0 .35rem;">Topic Modeling: Turning Conversation into Strategy</h4>
+            <div class="talk-speaker">🎤 <strong>Ifeoma Egbogah</strong> — Co-organiser, R-Ladies Abuja; Data Scientist</div>
+            <p style="font-size:.82rem;color:#777;margin:.6rem 0 .9rem;line-height:1.6;">Topic Modeling explores how unstructured text—such as customer feedback, social media discussions, call center transcripts, or survey responses—can be analyzed to reveal recurring themes and priorities.</p>
+            <a href="https://www.youtube.com/watch?v=uhSsv64jMWw&t=2s" target="_blank" style="font-size:.78rem;color:#88398A;font-weight:600;text-decoration:none;">▶ Watch →</a>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4 reveal">
+          <div style="background:white;border-radius:12px;padding:1.25rem;border:1px solid #f0e0f1;height:100%;">
+            <span style="font-size:.65rem;font-weight:800;text-transform:uppercase;letter-spacing:.1em;color:#88398A;">Spatial Analysis</span>
+            <h4 style="font-family:'Fraunces',serif;color:#5c1a5e;font-size:1rem;margin:.4rem 0 .35rem;">From Maps to Insights: Geospatial Hotspot Analysis in R</h4>
+            <div class="talk-speaker">🎤 <strong>Zeenatuddeen Muhammad</strong> — Environmental health Consultant; Co-organiser R-Ladies Abuja</div>
+            <p style="font-size:.82rem;color:#777;margin:.6rem 0 .9rem;line-height:1.6;">This training will guide you step-by-step from raw data to meaningful maps and spatial statistics that can inform health interventions and decision-making.</p>
+            <a href="https://www.youtube.com/watch?v=4iEY0Va6BBk" target="_blank" style="font-size:.78rem;color:#88398A;font-weight:600;text-decoration:none;">▶ Watch →</a>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4 reveal">
+          <div style="background:white;border-radius:12px;padding:1.25rem;border:1px solid #f0e0f1;height:100%;">
+            <span style="font-size:.65rem;font-weight:800;text-transform:uppercase;letter-spacing:.1em;color:#88398A;">R Community</span>
+            <h4 style="font-family:'Fraunces',serif;color:#5c1a5e;font-size:1rem;margin:.4rem 0 .35rem;">More sessions on our YouTube channel</h4>
+            <div class="talk-speaker">🎤 Various speakers · R-Ladies Global community</div>
+            <p style="font-size:.82rem;color:#777;margin:.6rem 0 .9rem;line-height:1.6;">We have hosted 34+ events since 2021 covering tidyverse, Shiny, Quarto, Posit Cloud, machine learning, and more — all freely available.</p>
+            <a href="https://www.youtube.com/@r-ladiesabuja/videos" target="_blank" style="font-size:.78rem;color:#88398A;font-weight:600;text-decoration:none;">▶ Browse all videos →</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div style="text-align:center;margin-top:3rem;" class="reveal">
+      <p style="color:#888;margin-bottom:1.25rem;font-size:.9rem;">All videos are freely available — no sign-up required.</p>
+      <a href="https://www.youtube.com/@r-ladiesabuja/videos" target="_blank" class="btn-rladies">🎬 Watch All Videos on YouTube</a>
+    </div>
+
+  </div>
+</section>
+
+<!-- TOPIC CATEGORIES -->
+<section class="section section-dark" style="padding:4rem 1.5rem;">
+  <div style="max-width:1100px;margin:0 auto;">
+    <div class="section-header reveal" style="text-align:center;margin-bottom:2.5rem;">
+      <span class="section-eyebrow" style="background:rgba(255,255,255,.15);color:#F4A261;">Topics We Cover</span>
+      <h2 style="color:white;">Talk Categories</h2>
+    </div>
+    <div class="row g-4 stagger">
+      <div class="col-md-6 col-lg-3 reveal">
+        <div style="background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.12);border-radius:16px;padding:1.75rem;text-align:center;">
+          <div style="font-size:2.5rem;margin-bottom:1rem;">📊</div>
+          <h3 style="color:white;font-size:1rem;font-family:'Fraunces',serif;margin-bottom:.5rem;">Data Visualisation</h3>
+          <p style="font-size:.82rem;color:rgba(255,255,255,.6);margin:0;">ggplot2, tidyplots, interactive charts with Plotly & more</p>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-3 reveal">
+        <div style="background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.12);border-radius:16px;padding:1.75rem;text-align:center;">
+          <div style="font-size:2.5rem;margin-bottom:1rem;">🤖</div>
+          <h3 style="color:white;font-size:1rem;font-family:'Fraunces',serif;margin-bottom:.5rem;">Machine Learning & AI</h3>
+          <p style="font-size:.82rem;color:rgba(255,255,255,.6);margin:0;">ML workflows, model building, tidymodels, and AI applications</p>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-3 reveal">
+        <div style="background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.12);border-radius:16px;padding:1.75rem;text-align:center;">
+          <div style="font-size:2.5rem;margin-bottom:1rem;">🔬</div>
+          <h3 style="color:white;font-size:1rem;font-family:'Fraunces',serif;margin-bottom:.5rem;">Applied Data Science</h3>
+          <p style="font-size:.82rem;color:rgba(255,255,255,.6);margin:0;">Real-world case studies in health, business & social impact</p>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-3 reveal">
+        <div style="background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.12);border-radius:16px;padding:1.75rem;text-align:center;">
+          <div style="font-size:2.5rem;margin-bottom:1rem;">☁️</div>
+          <h3 style="color:white;font-size:1rem;font-family:'Fraunces',serif;margin-bottom:.5rem;">Cloud & Workflow</h3>
+          <p style="font-size:.82rem;color:rgba(255,255,255,.6);margin:0;">Positron, Posit Workbench, reproducible research, Quarto</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="flag-stripe"></div>
+
+<!-- ALL JAVASCRIPT AT THE BOTTOM -->
+<script>
+// Scroll reveal
+document.addEventListener("DOMContentLoaded", () => {
+  document.querySelectorAll(".reveal").forEach(el => {
+    new IntersectionObserver(
+      ([e]) => { if (e.isIntersecting) e.target.classList.add("visible"); },
+      { threshold: .1 }
+    ).observe(el);
+  });
+});
+
+// Talks data — just add a new object here to add a talk; date drives the sort order
+const TALKS = [
+  {
+    date: "2026-05-14",
+    title: "Automatic NLP with LLMs using mall",
+    speaker: "Edgar Ruiz",
+    youtube: "https://www.youtube.com/watch?v=jh2U5U-mJ_w",
+    embed: "jh2U5U-mJ_w",
+    category: "Webinar",
+    description: "We're all too familiar with the grind of building functional NLP: labeling data, fitting models, and endless tuning. In this talk, we'll see how mall lets us bypass model training entirely by using LLMs to handle complex multilingual translation, sentiment analysis, and entity extraction row-wise across our data.",
+    slides: "https://edgararuiz-automatic-nlp-mall-presentation.share.connect.posit.cloud/#/title-slide"
+  },
+  {
+    date: "2026-03-25",
+    title: "Uncharted Waters: Learnings and Best Tricks from Developing a ggplot2 Data Visualization Masterclass",
+    speaker: "Dr Cedric Scherer",
+    youtube: "https://www.youtube.com/watch?v=rBmsnK8dSYI",
+    embed: "rBmsnK8dSYI",
+    category: "Data Visualization",
+    description: "An in-depth dive into advanced ggplot2 techniques, themes, and customisation for publication-ready charts.",
+    slides: ""
+  },
+  {
+    date: "2026-02-25",
+    title: "Outgrowing Your Laptop with R and Positron",
+    speaker: "Julia Silge",
+    youtube: "https://www.youtube.com/watch?v=sPZsH0eaUpQ",
+    embed: "sPZsH0eaUpQ",
+    category: "Cloud & Workflow",
+    description: "Exploring cloud computing, Posit Workbench, and the new Positron IDE for scalable R workflows.",
+    slides: ""
+  },
+  {
+    date: "2025-10-25",
+    title: "Coding Against Cancer: R for Breast Cancer Detection",
+    speaker: "Ifeoma Egbogah",
+    youtube: "https://www.youtube.com/watch?v=u68SYMcoH48",
+    embed: "u68SYMcoH48",
+    category: "Applied Data Science",
+    description: "Using R to analyse anthropometric data and build models for early breast cancer detection.",
+    slides: "https://ifydatatalks.netlify.app/webinar/breast_cancer.html"
+  },
+  {
+    date: "2025-09-17",
+    title: "Easy Code-based Data Visualization with tidyplots",
+    speaker: "Jan Broder Engler",
+    youtube: "https://www.youtube.com/watch?v=OSPtIaqD0v4",
+    embed: "OSPtIaqD0v4",
+    category: "Data Visualization",
+    description: "An introduction to the tidyplots package — elegant, reproducible plots with minimal code.",
+    slides: "https://jbengler.github.io/tidyplots/"
+  }
+];
+
+// Sort newest first, then build cards
+TALKS.sort((a, b) => new Date(b.date) - new Date(a.date));
+
+const container = document.getElementById("talks-container");
+
+TALKS.forEach(t => {
+  const card = document.createElement("div");
+  card.className = "reveal";
+  card.style.cssText = "display:flex;gap:1.5rem;margin-bottom:2.5rem;flex-wrap:wrap;";
+  card.innerHTML =
+    '<div style="flex:0 0 380px;max-width:100%;">' +
+      '<div style="border-radius:12px;overflow:hidden;position:relative;padding-top:56.25%;background:#000;">' +
+        '<iframe src="https://www.youtube.com/embed/' + t.embed + '" title="' + t.title + '" allowfullscreen ' +
+        'style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;"></iframe>' +
+      '</div>' +
+    '</div>' +
+    '<div style="flex:1;min-width:260px;background:white;border-radius:12px;padding:1.5rem;border:1px solid #f0e0f1;">' +
+      '<span style="font-size:.7rem;font-weight:800;color:#88398A;text-transform:uppercase;letter-spacing:.05em;">' + t.category + '</span>' +
+      '<h3 style="margin:.4rem 0 .5rem;color:#5c1a5e;font-size:1.1rem;line-height:1.4;">' + t.title + '</h3>' +
+      '<p style="font-size:.85rem;color:#555;margin-bottom:.4rem;">🎤 <strong>' + t.speaker + '</strong></p>' +
+      '<p style="font-size:.85rem;color:#555;line-height:1.6;margin-bottom:.8rem;">' + t.description + '</p>' +
+      '<a href="' + t.youtube + '" target="_blank" style="color:#88398A;font-weight:600;font-size:.85rem;text-decoration:none;">▶ Watch on YouTube</a>' +
+      (t.slides ? '<br><a href="' + t.slides + '" target="_blank" style="color:#88398A;font-weight:600;font-size:.85rem;text-decoration:none;display:inline-block;margin-top:.4rem;">📑 View Slides</a>' : '') +
+    '</div>';
+  container.appendChild(card);
+});
+</script>
+```

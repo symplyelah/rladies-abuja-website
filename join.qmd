@@ -1,0 +1,114 @@
+---
+title: "Join Us"
+page-layout: custom
+---
+
+```{=html}
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  const revealEls = document.querySelectorAll(".reveal");
+  const io = new IntersectionObserver((entries) => {
+    entries.forEach(e => { if (e.isIntersecting) e.target.classList.add("visible"); });
+  }, { threshold: 0.1 });
+  revealEls.forEach(el => io.observe(el));
+});
+</script>
+
+<!-- Page Hero -->
+<section style="background: linear-gradient(135deg, #1a001a 0%, #3d0040 50%, #88398A 100%); padding: 5rem 1.5rem 4rem; text-align: center;">
+  <div style="max-width: 700px; margin: 0 auto;">
+    <span style="display: inline-block; background: rgba(244,162,97,0.2); border: 1px solid rgba(244,162,97,0.5); color: #F4A261; font-size: 0.75rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; padding: 0.4rem 1rem; border-radius: 100px; margin-bottom: 1.25rem;">You Belong Here</span>
+    <h1 style="color: white; font-family: 'Fraunces', serif; font-size: clamp(2rem, 5vw, 3.5rem); font-weight: 900; margin-bottom: 1rem;">Join R-Ladies<br><em>Abuja</em></h1>
+    <p style="color: rgba(255,255,255,0.75); font-size: 1.1rem; line-height: 1.7;">No experience needed. Just bring curiosity, an open mind, and a love for learning.</p>
+  </div>
+</section>
+
+<!-- Who can join -->
+<section class="section section-soft" style="padding: 5rem 1.5rem;">
+  <div style="max-width: 1000px; margin: 0 auto;">
+    <div style="text-align: center; margin-bottom: 3rem;" class="reveal">
+      <span style="background: #f3e8f4; color: #88398A; font-size: 0.7rem; font-weight: 800; letter-spacing: 0.15em; text-transform: uppercase; padding: 0.35rem 1rem; border-radius: 100px; display: inline-block; margin-bottom: 1rem;">Membership</span>
+      <h2 style="font-family: 'Fraunces', serif; color: #5c1a5e; font-size: 2.2rem;">Who Is This For?</h2>
+      <p style="color: #666; max-width: 550px; margin: 0 auto;">R-Ladies Abuja is open to everyone who identifies as a woman or gender minority with an interest in data science and R programming.</p>
+    </div>
+
+    <div class="row g-4 stagger">
+      <div class="col-md-4 reveal">
+        <div style="background: white; border-radius: 16px; padding: 2rem; text-align: center; height: 100%; border: 1px solid rgba(136,57,138,0.1); box-shadow: 0 4px 15px rgba(0,0,0,0.05);">
+          <div style="font-size: 2.5rem; margin-bottom: 1rem;">🌱</div>
+          <h3 style="font-family: 'Fraunces', serif; color: #5c1a5e; margin-bottom: 0.5rem;">Beginners</h3>
+          <p style="font-size: 0.88rem; color: #666;">Never coded before? Perfect. We start from scratch and build up together.</p>
+        </div>
+      </div>
+      <div class="col-md-4 reveal">
+        <div style="background: linear-gradient(135deg, #f3e8f4, #fdf6fe); border-radius: 16px; padding: 2rem; text-align: center; height: 100%; border: 1px solid rgba(136,57,138,0.15); box-shadow: 0 4px 15px rgba(136,57,138,0.08);">
+          <div style="font-size: 2.5rem; margin-bottom: 1rem;">⚡</div>
+          <h3 style="font-family: 'Fraunces', serif; color: #5c1a5e; margin-bottom: 0.5rem;">Intermediate Users</h3>
+          <p style="font-size: 0.88rem; color: #666;">Know some R? Level up with our advanced topics and peer learning circles.</p>
+        </div>
+      </div>
+      <div class="col-md-4 reveal">
+        <div style="background: white; border-radius: 16px; padding: 2rem; text-align: center; height: 100%; border: 1px solid rgba(136,57,138,0.1); box-shadow: 0 4px 15px rgba(0,0,0,0.05);">
+          <div style="font-size: 2.5rem; margin-bottom: 1rem;">🏆</div>
+          <h3 style="font-family: 'Fraunces', serif; color: #5c1a5e; margin-bottom: 0.5rem;">Experts & Mentors</h3>
+          <p style="font-size: 0.88rem; color: #666;">Give back by speaking, mentoring, or collaborating with our growing community.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- How to Join -->
+<section class="section section-light" style="padding: 5rem 1.5rem;">
+  <div style="max-width: 900px; margin: 0 auto;">
+    <div style="text-align: center; margin-bottom: 3rem;" class="reveal">
+      <span style="background: #f3e8f4; color: #88398A; font-size: 0.7rem; font-weight: 800; letter-spacing: 0.15em; text-transform: uppercase; padding: 0.35rem 1rem; border-radius: 100px; display: inline-block; margin-bottom: 1rem;">Getting Started</span>
+      <h2 style="font-family: 'Fraunces', serif; color: #5c1a5e; font-size: 2.2rem;">Three Ways to Connect</h2>
+    </div>
+
+    <div class="row g-4 stagger">
+
+      <div class="col-md-4 reveal">
+        <div style="background: white; border-radius: 20px; padding: 2rem; text-align: center; height: 100%; border: 1px solid rgba(136,57,138,0.12); box-shadow: 0 4px 20px rgba(0,0,0,0.06); transition: all 0.3s;" onmouseover="this.style.transform='translateY(-6px)'; this.style.boxShadow='0 14px 35px rgba(136,57,138,0.15)'" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 4px 20px rgba(0,0,0,0.06)'">
+          <div style="width: 60px; height: 60px; border-radius: 50%; background: #f3e8f4; display: flex; align-items: center; justify-content: center; font-size: 1.8rem; margin: 0 auto 1.25rem;">📅</div>
+          <h3 style="font-family: 'Fraunces', serif; color: #5c1a5e; font-size: 1.15rem; margin-bottom: 0.5rem;">Join on Meetup</h3>
+          <p style="font-size: 0.85rem; color: #666; margin-bottom: 1.5rem;">RSVP for upcoming events, browse past talks, and become part of our 2,356-member group.</p>
+          <a href="https://www.meetup.com/rladies-abuja/" target="_blank" class="btn-purple" style="font-size: 0.82rem; padding: 0.55rem 1.25rem; display: inline-block;">Join Meetup Group →</a>
+        </div>
+      </div>
+
+      <div class="col-md-4 reveal">
+        <div style="background: linear-gradient(135deg, #88398A, #5c1a5e); border-radius: 20px; padding: 2rem; text-align: center; height: 100%; box-shadow: 0 8px 30px rgba(136,57,138,0.25); transition: all 0.3s;" onmouseover="this.style.transform='translateY(-6px)'; this.style.boxShadow='0 14px 40px rgba(136,57,138,0.35)'" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 8px 30px rgba(136,57,138,0.25)'">
+          <div style="width: 60px; height: 60px; border-radius: 50%; background: rgba(255,255,255,0.15); display: flex; align-items: center; justify-content: center; font-size: 1.8rem; margin: 0 auto 1.25rem;">💼</div>
+          <h3 style="color: white; font-family: 'Fraunces', serif; font-size: 1.15rem; margin-bottom: 0.5rem;">LinkedIn</h3>
+          <p style="font-size: 0.85rem; color: rgba(255,255,255,0.75); margin-bottom: 1.5rem;">Follow us for event announcements, community updates, and career opportunities in data science.</p>
+          <a href="https://www.linkedin.com/in/rladies-abuja/" target="_blank" class="btn-rladies" style="font-size: 0.82rem; padding: 0.55rem 1.25rem; display: inline-block;">Follow on LinkedIn →</a>
+        </div>
+      </div>
+
+      <div class="col-md-4 reveal">
+        <div style="background: white; border-radius: 20px; padding: 2rem; text-align: center; height: 100%; border: 1px solid rgba(136,57,138,0.12); box-shadow: 0 4px 20px rgba(0,0,0,0.06); transition: all 0.3s;" onmouseover="this.style.transform='translateY(-6px)'; this.style.boxShadow='0 14px 35px rgba(136,57,138,0.15)'" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 4px 20px rgba(0,0,0,0.06)'">
+          <div style="width: 60px; height: 60px; border-radius: 50%; background: #fff0f0; display: flex; align-items: center; justify-content: center; font-size: 1.8rem; margin: 0 auto 1.25rem;">▶️</div>
+          <h3 style="font-family: 'Fraunces', serif; color: #5c1a5e; font-size: 1.15rem; margin-bottom: 0.5rem;">YouTube</h3>
+          <p style="font-size: 0.85rem; color: #666; margin-bottom: 1.5rem;">Subscribe to access all our recorded talks, tutorials, and webinars — completely free.</p>
+          <a href="https://www.youtube.com/@r-ladiesabuja/videos" target="_blank" class="btn-purple" style="font-size: 0.82rem; padding: 0.55rem 1.25rem; display: inline-block;">Subscribe Now →</a>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Speak at our Events -->
+    <div style="margin-top: 3rem; background: #fdf6fe; border-radius: 20px; padding: 2.5rem; display: flex; gap: 2rem; align-items: center; flex-wrap: wrap;" class="reveal">
+      <div style="flex: 1; min-width: 250px;">
+        <h3 style="font-family: 'Fraunces', serif; color: #5c1a5e; font-size: 1.5rem; margin-bottom: 0.5rem;">Want to Speak at an Event?</h3>
+        <p style="color: #666; font-size: 0.95rem; margin: 0;">Have a project, research, or R package to share? We'd love to have you! All skill levels welcome as speakers.</p>
+      </div>
+      <div>
+        <a href="mailto:abuja@rladies.org" class="btn-rladies" style="background: #88398A; color: white; box-shadow: 0 4px 15px rgba(136,57,138,0.3); display: inline-block;">📧 Get in Touch</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="flag-stripe"></div>
+```

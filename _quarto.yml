@@ -1,0 +1,85 @@
+project:
+  type: website
+  output-dir: _site
+  resources:
+  - data
+  - images
+
+website:
+  title: "R-Ladies Abuja"
+  description: "Empowering women in R, data science & AI — Abuja, Nigeria 🇳🇬"
+  favicon: images/logo.jpg
+  site-url: "https://rladiesabuja.netlify.app"
+
+  navbar:
+    logo: images/logo.jpg
+    logo-alt: "R-Ladies Abuja Logo"
+    logo-href: "/"
+    title: false
+    background: "#88398A"
+    foreground: "white"
+    collapse-below: md
+    left:
+      - text: "Home"
+        href: index.qmd
+      - text: "About"
+        href: about.qmd
+        menu:
+          - text: "R-Ladies Global"
+            href: about-global.qmd
+          - text: "R-Ladies Abuja"
+            href: about-abuja.qmd
+      - text: "Talks"
+        href: talks.qmd
+      - text: "Organisers"
+        href: organisers.qmd
+      - text: "Join Us"
+        href: join.qmd
+    right:
+      - icon: linkedin
+        href: "https://www.linkedin.com/in/rladies-abuja/"
+        aria-label: LinkedIn
+      - icon: youtube
+        href: "https://www.youtube.com/@r-ladiesabuja/videos"
+        aria-label: YouTube
+      - icon: github
+        href: "https://github.com/rladies"
+        aria-label: GitHub
+
+  open-graph:
+    title: "R-Ladies Abuja"
+    description: "A local chapter of R-Ladies Global — empowering women in R, data science & AI in Abuja, Nigeria."
+    image: images/logo.jpg
+
+  twitter-card:
+    title: "R-Ladies Abuja"
+    description: "Empowering women in R & data science in Abuja, Nigeria 🇳🇬"
+    image: images/logo.jpg
+    creator: "@RLadiesAbuja"
+
+  page-footer:
+    left: |
+      Copyright © 2021–26, R-Ladies Abuja<br>
+      Designer & Maintainer: Ifeoma Egbogah<br>
+      Powered by: Quarto & [Solelytics Consultancy](https://solelyticsltd.netlify.app/) | MIT License
+    right: |
+      This website is built with ❤️ and [Quarto](https://quarto.org/)
+    background: "#1a001a"
+    foreground: "#e8c5e8"
+
+format:
+  html:
+    theme:
+      - cosmo
+      - custom.scss
+    css: custom.css
+    toc: false
+    code-fold: false
+    smooth-scroll: true
+    fig-align: center
+    html-math-method: katex
+    include-in-header:
+      - text: |
+          <link rel="preconnect" href="https://fonts.googleapis.com">
+          <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+          <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,700;0,9..144,900;1,9..144,400&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">

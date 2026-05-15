@@ -1,0 +1,126 @@
+---
+title: "R-Ladies Abuja"
+page-layout: custom
+---
+
+```{=html}
+
+<!-- HERO -->
+<section style="background:linear-gradient(135deg,#1a001a 0%,#3d0040 50%,#88398A 100%);padding:5rem 1.5rem 4rem;text-align:center;">
+  <div style="max-width:750px;margin:0 auto;">
+    <span style="display:inline-block;background:rgba(244,162,97,.2);border:1px solid rgba(244,162,97,.5);color:#F4A261;font-size:.75rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;padding:.4rem 1rem;border-radius:100px;margin-bottom:1.25rem;">Abuja, Nigeria 🇳🇬</span>
+    <h1 style="color:white;font-family:'Fraunces',serif;font-size:clamp(2rem,5vw,3.5rem);font-weight:900;margin-bottom:1rem;">R-Ladies Abuja</h1>
+    <p style="color:rgba(255,255,255,.78);font-size:1.05rem;line-height:1.8;max-width:620px;margin:0 auto;">A local chapter of R-Ladies Global — empowering women and gender minorities to thrive in R and data science across Nigeria.</p>
+  </div>
+</section>
+
+<!-- ABUJA CHAPTER CONTENT -->
+<section style="padding:5rem 1.5rem;background:white;">
+  <div style="max-width:1000px;margin:0 auto;">
+
+    <div style="display:flex;align-items:center;gap:1rem;margin-bottom:2.5rem;">
+      <div style="width:4px;height:48px;background:linear-gradient(180deg,#F4A261,#88398A);border-radius:4px;flex-shrink:0;"></div>
+      <div>
+        <span style="font-size:.7rem;font-weight:800;color:#88398A;text-transform:uppercase;letter-spacing:.1em;">Our Story</span>
+        <h2 style="font-family:'Fraunces',serif;color:#3d0040;margin:.2rem 0 0;font-size:1.9rem;">Who We Are</h2>
+      </div>
+    </div>
+
+    <div style="display:grid;grid-template-columns:3fr 2fr;gap:3rem;align-items:start;">
+      <div>
+        <p style="font-size:1rem;color:#444;line-height:1.85;margin-bottom:1rem;">
+          R-Ladies Abuja is the Nigerian Federal Capital Territory chapter of R-Ladies Global. Founded in 2021, we are a community of R users, data scientists, statisticians, researchers, and learners based in Abuja and across Nigeria — united by a shared commitment to making data science more inclusive, accessible, and impactful.
+        </p>
+        <p style="font-size:1rem;color:#444;line-height:1.85;margin-bottom:1rem;">
+          Since our founding, we have hosted <strong>34+ events</strong> covering a wide range of topics: from the fundamentals of the tidyverse and R Markdown through to advanced machine learning, Shiny app development, geospatial analysis, text mining, natural language processing, and Quarto publishing. Our webinars bring in expert speakers from Nigeria and around the world — and every session is recorded and made freely available on YouTube.
+        </p>
+        <p style="font-size:1rem;color:#444;line-height:1.85;">
+          We welcome everyone who identifies as a woman or gender minority, at any stage of their R journey — whether you have never opened RStudio or you are a seasoned package developer. Come as you are.
+        </p>
+
+        <div style="margin-top:2rem;display:flex;gap:1rem;flex-wrap:wrap;">
+          <a href="https://www.meetup.com/rladies-abuja/" target="_blank"
+             style="background:#88398A;color:white;padding:.65rem 1.4rem;border-radius:8px;font-weight:700;font-size:.88rem;text-decoration:none;">
+            Join us on Meetup
+          </a>
+          <a href="https://www.youtube.com/@r-ladiesabuja/videos" target="_blank"
+             style="background:white;color:#88398A;border:2px solid #88398A;padding:.65rem 1.4rem;border-radius:8px;font-weight:700;font-size:.88rem;text-decoration:none;">
+            Watch our Talks
+          </a>
+        </div>
+      </div>
+
+      <div>
+        <!-- Chapter stats -->
+        <div style="background:#fdf8fe;border-radius:16px;padding:1.75rem;border:1px solid #f0e0f1;">
+          <h4 style="color:#5c1a5e;font-family:'Fraunces',serif;margin-bottom:1.25rem;font-size:1rem;">Chapter at a Glance</h4>
+          <div style="display:flex;flex-direction:column;gap:.9rem;">
+            <div style="display:flex;justify-content:space-between;align-items:center;padding-bottom:.75rem;border-bottom:1px solid #f0e0f1;">
+              <span style="font-size:.85rem;color:#666;">Founded</span>
+              <strong style="color:#3d0040;font-size:.9rem;">2021</strong>
+            </div>
+            <div style="display:flex;justify-content:space-between;align-items:center;padding-bottom:.75rem;border-bottom:1px solid #f0e0f1;">
+              <span style="font-size:.85rem;color:#666;">Events hosted</span>
+              <strong style="color:#3d0040;font-size:.9rem;">34+</strong>
+            </div>
+            <div style="display:flex;justify-content:space-between;align-items:center;padding-bottom:.75rem;border-bottom:1px solid #f0e0f1;">
+              <span style="font-size:.85rem;color:#666;">Location</span>
+              <strong style="color:#3d0040;font-size:.9rem;">Abuja, Nigeria 🇳🇬</strong>
+            </div>
+            <div style="display:flex;justify-content:space-between;align-items:center;padding-bottom:.75rem;border-bottom:1px solid #f0e0f1;">
+              <span style="font-size:.85rem;color:#666;">Format</span>
+              <strong style="color:#3d0040;font-size:.9rem;">Online & In-person</strong>
+            </div>
+            <div style="display:flex;justify-content:space-between;align-items:center;">
+              <span style="font-size:.85rem;color:#666;">All sessions</span>
+              <strong style="color:#3d0040;font-size:.9rem;">Free to attend</strong>
+            </div>
+          </div>
+        </div>
+
+        <!-- Topics -->
+        <div style="margin-top:1.25rem;background:#fdf8fe;border-radius:16px;padding:1.75rem;border:1px solid #f0e0f1;">
+          <h4 style="color:#5c1a5e;font-family:'Fraunces',serif;margin-bottom:1rem;font-size:1rem;">Topics We've Covered</h4>
+          <div style="display:flex;flex-wrap:wrap;gap:.45rem;">
+            <span style="background:#f0e0f1;color:#5c1a5e;font-size:.72rem;font-weight:700;padding:.25rem .7rem;border-radius:100px;">tidyverse</span>
+            <span style="background:#f0e0f1;color:#5c1a5e;font-size:.72rem;font-weight:700;padding:.25rem .7rem;border-radius:100px;">Shiny</span>
+            <span style="background:#f0e0f1;color:#5c1a5e;font-size:.72rem;font-weight:700;padding:.25rem .7rem;border-radius:100px;">Quarto</span>
+            <span style="background:#f0e0f1;color:#5c1a5e;font-size:.72rem;font-weight:700;padding:.25rem .7rem;border-radius:100px;">ggplot2</span>
+            <span style="background:#f0e0f1;color:#5c1a5e;font-size:.72rem;font-weight:700;padding:.25rem .7rem;border-radius:100px;">Machine Learning</span>
+            <span style="background:#f0e0f1;color:#5c1a5e;font-size:.72rem;font-weight:700;padding:.25rem .7rem;border-radius:100px;">NLP & Text Mining</span>
+            <span style="background:#f0e0f1;color:#5c1a5e;font-size:.72rem;font-weight:700;padding:.25rem .7rem;border-radius:100px;">Geospatial Analysis</span>
+            <span style="background:#f0e0f1;color:#5c1a5e;font-size:.72rem;font-weight:700;padding:.25rem .7rem;border-radius:100px;">Posit Cloud</span>
+            <span style="background:#f0e0f1;color:#5c1a5e;font-size:.72rem;font-weight:700;padding:.25rem .7rem;border-radius:100px;">tidymodels</span>
+            <span style="background:#f0e0f1;color:#5c1a5e;font-size:.72rem;font-weight:700;padding:.25rem .7rem;border-radius:100px;">Data Visualisation</span>
+            <span style="background:#f0e0f1;color:#5c1a5e;font-size:.72rem;font-weight:700;padding:.25rem .7rem;border-radius:100px;">R Markdown</span>
+            <span style="background:#f0e0f1;color:#5c1a5e;font-size:.72rem;font-weight:700;padding:.25rem .7rem;border-radius:100px;">LLMs with R</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- GET INVOLVED -->
+<section style="background:linear-gradient(135deg,#1a001a 0%,#3d0040 100%);padding:4rem 1.5rem;text-align:center;">
+  <div style="max-width:650px;margin:0 auto;">
+    <h2 style="color:white;font-family:'Fraunces',serif;font-size:2rem;margin-bottom:1rem;">Get Involved</h2>
+    <p style="color:rgba(255,255,255,.78);font-size:1rem;line-height:1.8;margin-bottom:2rem;">
+      Whether you want to attend a webinar, give a talk, sponsor an event, or just say hello — we would love to hear from you. All skill levels, all backgrounds, always welcome.
+    </p>
+    <div style="display:flex;justify-content:center;gap:1rem;flex-wrap:wrap;">
+      <a href="https://www.meetup.com/rladies-abuja/" target="_blank"
+         style="background:#F4A261;color:#1a001a;padding:.7rem 1.6rem;border-radius:8px;font-weight:800;font-size:.9rem;text-decoration:none;">
+        Join on Meetup
+      </a>
+      <a href="https://rladies.org" target="_blank"
+         style="background:transparent;color:white;border:2px solid rgba(255,255,255,.5);padding:.7rem 1.6rem;border-radius:8px;font-weight:700;font-size:.9rem;text-decoration:none;">
+        Learn about R-Ladies Global
+      </a>
+    </div>
+  </div>
+</section>
+
+<div class="flag-stripe"></div>
+```

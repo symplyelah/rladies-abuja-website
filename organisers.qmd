@@ -1,0 +1,196 @@
+---
+title: "Organisers"
+page-layout: custom
+---
+
+```{=html}
+
+<!-- HERO -->
+<section style="background:linear-gradient(135deg,#1a001a 0%,#3d0040 50%,#88398A 100%);padding:5rem 1.5rem 4rem;text-align:center;">
+  <div style="max-width:700px;margin:0 auto;">
+    <span style="display:inline-block;background:rgba(244,162,97,.2);border:1px solid rgba(244,162,97,.5);color:#F4A261;font-size:.75rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;padding:.4rem 1rem;border-radius:100px;margin-bottom:1.25rem;">The People Behind the Community</span>
+    <h1 style="color:white;font-family:'Fraunces',serif;font-size:clamp(2rem,5vw,3.5rem);font-weight:900;margin-bottom:1rem;">Meet Our<br><em>Organisers</em></h1>
+    <p style="color:rgba(255,255,255,.75);font-size:1.05rem;line-height:1.7;max-width:560px;margin:0 auto;">Four remarkable women who give their time, expertise, and passion to make R-Ladies Abuja the thriving community it is today.</p>
+  </div>
+</section>
+
+<!-- ORGANISERS GRID -->
+<section style="padding:5rem 1.5rem;background:#fdf8fe;">
+  <div style="max-width:1100px;margin:0 auto;">
+
+    <!-- Bilikisu -->
+    <div style="display:flex;gap:2.5rem;align-items:flex-start;margin-bottom:4rem;flex-wrap:wrap;" class="reveal">
+      <div style="flex:0 0 200px;">
+        <img src="images/bilikisu.jfif" alt="Bilikisu Olatunji"
+             style="width:200px;height:200px;object-fit:cover;border-radius:50%;border:4px solid #88398A;box-shadow:0 8px 32px rgba(136,57,138,.2);display:block;">
+        <div style="text-align:center;margin-top:1rem;">
+          <a href="https://www.linkedin.com/in/bilikisuolatunji/" target="_blank"
+             style="display:inline-flex;align-items:center;gap:.4rem;color:#88398A;font-weight:700;font-size:.82rem;text-decoration:none;">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="#88398A"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"/><circle cx="4" cy="4" r="2" fill="#88398A"/></svg>
+            LinkedIn
+          </a>
+        </div>
+      </div>
+      <div style="flex:1;min-width:260px;">
+        <span style="font-size:.7rem;font-weight:800;color:#88398A;text-transform:uppercase;letter-spacing:.1em;">Founder & Co-organiser</span>
+        <h2 style="font-family:'Fraunces',serif;color:#3d0040;font-size:1.8rem;margin:.3rem 0 .75rem;">Bilikisu Wunmi Olatunji</h2>
+        <p style="font-size:.95rem;color:#444;line-height:1.85;margin-bottom:.75rem;">
+          Bilikisu is a Data Scientist, R Shiny Developer, and the founder of both R-Ladies Abuja and the Abuja R User Group — the communities she built to give others the support she wished she'd had when starting out. She holds an MSc from the University of Liverpool and is a certified RStudio Instructor for Tidyverse and R Shiny.
+        </p>
+        <p style="font-size:.95rem;color:#444;line-height:1.85;margin-bottom:.75rem;">
+          At Business Data Laboratory, she works as a Data Scientist, R Shiny Developer, and Product Owner, delivering analytical solutions for clients across industries.
+        </p>
+        <p style="font-size:.95rem;color:#444;line-height:1.85;">
+          Bilikisu's vision is simple: a Nigeria where anyone, from any background, can find their feet in data science through community, mentorship, and open-source tools.
+        </p>
+        <div style="display:flex;flex-wrap:wrap;gap:.4rem;margin-top:1rem;">
+          <span style="background:#f0e0f1;color:#5c1a5e;font-size:.72rem;font-weight:700;padding:.25rem .7rem;border-radius:100px;">R Shiny</span>
+          <span style="background:#f0e0f1;color:#5c1a5e;font-size:.72rem;font-weight:700;padding:.25rem .7rem;border-radius:100px;">Geospatial Data Science</span>
+          <span style="background:#f0e0f1;color:#5c1a5e;font-size:.72rem;font-weight:700;padding:.25rem .7rem;border-radius:100px;">tidyverse</span>
+          <span style="background:#f0e0f1;color:#5c1a5e;font-size:.72rem;font-weight:700;padding:.25rem .7rem;border-radius:100px;">rOpenSci Champion</span>
+          <span style="background:#f0e0f1;color:#5c1a5e;font-size:.72rem;font-weight:700;padding:.25rem .7rem;border-radius:100px;">RStudio Certified Instructor</span>
+        </div>
+      </div>
+    </div>
+
+    <hr style="border:none;border-top:1px solid #f0e0f1;margin-bottom:4rem;">
+
+
+    <!-- Zeenatuddeen -->
+    <div style="display:flex;gap:2.5rem;align-items:flex-start;margin-bottom:4rem;flex-wrap:wrap;" class="reveal">
+      <div style="flex:0 0 200px;">
+        <img src="images/zeenatudeen.jfif" alt="Zeenatuddeen Muhammad"
+             style="width:200px;height:200px;object-fit:cover;border-radius:50%;border:4px solid #88398A;box-shadow:0 8px 32px rgba(136,57,138,.2);display:block;">
+        <div style="text-align:center;margin-top:1rem;">
+          <a href="https://www.linkedin.com/in/zeenatuddeen-muhammad-a6867612b/" target="_blank"
+             style="display:inline-flex;align-items:center;gap:.4rem;color:#88398A;font-weight:700;font-size:.82rem;text-decoration:none;">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="#88398A"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"/><circle cx="4" cy="4" r="2" fill="#88398A"/></svg>
+            LinkedIn
+          </a>
+        </div>
+      </div>
+      <div style="flex:1;min-width:260px;">
+        <span style="font-size:.7rem;font-weight:800;color:#88398A;text-transform:uppercase;letter-spacing:.1em;">Co-organiser</span>
+        <h2 style="font-family:'Fraunces',serif;color:#3d0040;font-size:1.8rem;margin:.3rem 0 .75rem;">Zeenatuddeen Muhammad</h2>
+        <p style="font-size:.95rem;color:#444;line-height:1.85;margin-bottom:.75rem;">
+          Zeenatuddeen is an Environmental Health Consultant and researcher registered with the Environmental Health Council of Nigeria (EHCON), with a background in microbiology from Gombe State University. Her work sits at the intersection of public health, environmental surveillance, and data science.
+        </p>
+        <p style="font-size:.95rem;color:#444;line-height:1.85;margin-bottom:.75rem;">
+          A published researcher in high-impact journals including <em>Scientific Reports</em> and <em>BMC Public Health</em>, Zeenatuddeen applies R to tackle real-world health challenges — from antimicrobial resistance surveillance in household wastewater to geospatial hotspot analysis for health interventions. She delivered R-Ladies Abuja's acclaimed session <em>From Maps to Insights: Geospatial Hotspot Analysis in R</em>.
+        </p>
+        <p style="font-size:.95rem;color:#444;line-height:1.85;">
+          Zeenatuddeen brings a rigorous scientific perspective to the community, championing the use of open-source tools to advance public health research across Nigeria.
+        </p>
+        <div style="display:flex;flex-wrap:wrap;gap:.4rem;margin-top:1rem;">
+          <span style="background:#f0e0f1;color:#5c1a5e;font-size:.72rem;font-weight:700;padding:.25rem .7rem;border-radius:100px;">Geospatial Analysis</span>
+          <span style="background:#f0e0f1;color:#5c1a5e;font-size:.72rem;font-weight:700;padding:.25rem .7rem;border-radius:100px;">Environmental Health</span>
+          <span style="background:#f0e0f1;color:#5c1a5e;font-size:.72rem;font-weight:700;padding:.25rem .7rem;border-radius:100px;">Public Health Research</span>
+          <span style="background:#f0e0f1;color:#5c1a5e;font-size:.72rem;font-weight:700;padding:.25rem .7rem;border-radius:100px;">AMR Surveillance</span>
+        </div>
+      </div>
+    </div>
+
+    <hr style="border:none;border-top:1px solid #f0e0f1;margin-bottom:4rem;">
+
+
+
+    <!-- Ifeoma -->
+    <div style="display:flex;gap:2.5rem;align-items:flex-start;margin-bottom:4rem;flex-wrap:wrap;flex-direction:row-reverse;" class="reveal">
+      <div style="flex:0 0 200px;">
+        <img src="images/ifeoma.jfif" alt="Ifeoma Egbogah"
+             style="width:200px;height:200px;object-fit:cover;border-radius:50%;border:4px solid #88398A;box-shadow:0 8px 32px rgba(136,57,138,.2);display:block;">
+        <div style="text-align:center;margin-top:1rem;">
+          <a href="https://www.linkedin.com/in/ifeoma-egbogah-a88527110/" target="_blank"
+             style="display:inline-flex;align-items:center;gap:.4rem;color:#88398A;font-weight:700;font-size:.82rem;text-decoration:none;">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="#88398A"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"/><circle cx="4" cy="4" r="2" fill="#88398A"/></svg>
+            LinkedIn
+          </a>
+        </div>
+      </div>
+      <div style="flex:1;min-width:260px;">
+        <span style="font-size:.7rem;font-weight:800;color:#88398A;text-transform:uppercase;letter-spacing:.1em;">Co-organiser & Website Designer</span>
+        <h2 style="font-family:'Fraunces',serif;color:#3d0040;font-size:1.8rem;margin:.3rem 0 .75rem;">Ifeoma Egbogah</h2>
+        <p style="font-size:.95rem;color:#444;line-height:1.85;margin-bottom:.75rem;">
+          Ifeoma is a Data Scientist and the founder of Solelytics Consultancy, where she helps organisations turn raw data into clear, actionable insights. A passionate advocate for data literacy, she co-organises R-Ladies Abuja and is the designer and maintainer of this website.
+        </p>
+        <p style="font-size:.95rem;color:#444;line-height:1.85;margin-bottom:.75rem;">
+          Her work spans text analytics, machine learning, and applied data science — including her widely attended session on <em>Topic Modeling: Turning Conversation into Strategy</em> and <em>Coding Against Cancer</em>, where she demonstrated how R can be used for early breast cancer detection from anthropometric data.
+        </p>
+        <p style="font-size:.95rem;color:#444;line-height:1.85;">
+          Ifeoma is deeply committed to making data science accessible to women across Nigeria, believing that community-driven learning is one of the most powerful tools for professional growth.
+        </p>
+        <div style="display:flex;flex-wrap:wrap;gap:.4rem;margin-top:1rem;">
+          <span style="background:#f0e0f1;color:#5c1a5e;font-size:.72rem;font-weight:700;padding:.25rem .7rem;border-radius:100px;">Text Analytics</span>
+          <span style="background:#f0e0f1;color:#5c1a5e;font-size:.72rem;font-weight:700;padding:.25rem .7rem;border-radius:100px;">Machine Learning</span>
+          <span style="background:#f0e0f1;color:#5c1a5e;font-size:.72rem;font-weight:700;padding:.25rem .7rem;border-radius:100px;">Quarto</span>
+          <span style="background:#f0e0f1;color:#5c1a5e;font-size:.72rem;font-weight:700;padding:.25rem .7rem;border-radius:100px;">Applied Data Science</span>
+          <span style="background:#f0e0f1;color:#5c1a5e;font-size:.72rem;font-weight:700;padding:.25rem .7rem;border-radius:100px;">Solelytics Consultancy</span>
+        </div>
+      </div>
+    </div>
+
+    <hr style="border:none;border-top:1px solid #f0e0f1;margin-bottom:4rem;">
+
+
+    <!-- Queenth -->
+    <div style="display:flex;gap:2.5rem;align-items:flex-start;margin-bottom:2rem;flex-wrap:wrap;flex-direction:row-reverse;" class="reveal">
+      <div style="flex:0 0 200px;">
+        <img src="images/queen.jfif" alt="Queenth Onwuka"
+             style="width:200px;height:200px;object-fit:cover;border-radius:50%;border:4px solid #88398A;box-shadow:0 8px 32px rgba(136,57,138,.2);display:block;">
+        <div style="text-align:center;margin-top:1rem;">
+          <a href="https://www.linkedin.com/in/queeneth-onwuka-ba5966a7/" target="_blank"
+             style="display:inline-flex;align-items:center;gap:.4rem;color:#88398A;font-weight:700;font-size:.82rem;text-decoration:none;">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="#88398A"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"/><circle cx="4" cy="4" r="2" fill="#88398A"/></svg>
+            LinkedIn
+          </a>
+        </div>
+      </div>
+      <div style="flex:1;min-width:260px;">
+        <span style="font-size:.7rem;font-weight:800;color:#88398A;text-transform:uppercase;letter-spacing:.1em;">Co-organiser</span>
+        <h2 style="font-family:'Fraunces',serif;color:#3d0040;font-size:1.8rem;margin:.3rem 0 .75rem;">Queenth Onwuka</h2>
+        <p style="font-size:.95rem;color:#444;line-height:1.85;margin-bottom:.75rem;">
+          Queenth is a data and analytics professional whose work bridges the gap between raw data and organisational decision-making. With a strong foundation in quantitative analysis and a passion for making data accessible, she brings both technical rigour and creative energy to the R-Ladies Abuja team.
+        </p>
+        <p style="font-size:.95rem;color:#444;line-height:1.85;margin-bottom:.75rem;">
+          As a co-organiser, Queenth plays an active role in planning and coordinating events, engaging the community, and ensuring every member — regardless of experience level — feels welcomed and supported. She is a firm believer that diverse perspectives make better data science.
+        </p>
+        <p style="font-size:.95rem;color:#444;line-height:1.85;">
+          Her enthusiasm for community building and her commitment to gender inclusion in tech make her an indispensable pillar of R-Ladies Abuja.
+        </p>
+        <div style="display:flex;flex-wrap:wrap;gap:.4rem;margin-top:1rem;">
+          <span style="background:#f0e0f1;color:#5c1a5e;font-size:.72rem;font-weight:700;padding:.25rem .7rem;border-radius:100px;">Data Analytics</span>
+          <span style="background:#f0e0f1;color:#5c1a5e;font-size:.72rem;font-weight:700;padding:.25rem .7rem;border-radius:100px;">Community Building</span>
+          <span style="background:#f0e0f1;color:#5c1a5e;font-size:.72rem;font-weight:700;padding:.25rem .7rem;border-radius:100px;">R Programming</span>
+          <span style="background:#f0e0f1;color:#5c1a5e;font-size:.72rem;font-weight:700;padding:.25rem .7rem;border-radius:100px;">Gender Inclusion</span>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- JOIN CTA -->
+<section style="background:linear-gradient(135deg,#1a001a 0%,#3d0040 100%);padding:4rem 1.5rem;text-align:center;">
+  <div style="max-width:620px;margin:0 auto;">
+    <h2 style="color:white;font-family:'Fraunces',serif;font-size:2rem;margin-bottom:1rem;">Want to get involved?</h2>
+    <p style="color:rgba(255,255,255,.75);font-size:1rem;line-height:1.8;margin-bottom:2rem;">Our organisers are always happy to welcome new members, speakers, and collaborators. Come join the community.</p>
+    <a href="https://www.meetup.com/rladies-abuja/" target="_blank"
+       style="background:#F4A261;color:#1a001a;padding:.75rem 1.8rem;border-radius:8px;font-weight:800;font-size:.95rem;text-decoration:none;">
+      Join us on Meetup
+    </a>
+  </div>
+</section>
+
+<div class="flag-stripe"></div>
+
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  document.querySelectorAll(".reveal").forEach(el => {
+    new IntersectionObserver(
+      ([e]) => { if (e.isIntersecting) e.target.classList.add("visible"); },
+      { threshold: .1 }
+    ).observe(el);
+  });
+});
+</script>
+```

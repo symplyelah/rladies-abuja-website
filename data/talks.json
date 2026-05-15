@@ -1,0 +1,57 @@
+[
+  {
+    "date": "2026-05-14",
+    "title": "Automatic NLP with LLMs using mall",
+    "speaker": "Edgar Ruiz",
+    "youtube": "https://www.youtube.com/watch?v=jh2U5U-mJ_w",
+    "embed": "jh2U5U-mJ_w",
+    "category": "Webinar",
+    "attendees": 15,
+    "description": "We're all too familiar with the grind of building functional NLP: labeling data, fitting models, and endless tuning. In this talk, we'll see how mall lets us bypass model training entirely by using LLMs to handle complex multilingual translation, sentiment analysis, and entity extraction row-wise across our data. We'll explore how to run these solutions using a familiar R syntax, whether you're working with local models for privacy or remote APIs for scale.",
+    "slides": "https://edgararuiz-automatic-nlp-mall-presentation.share.connect.posit.cloud/#/title-slide"
+  },
+  {
+    "date": "2026-03-25",
+    "title": "Uncharted Waters: Learnings and Best Tricks from Developing a ggplot2 Data Visualization Masterclass",
+    "speaker": "Dr Cedric Scherer",
+    "youtube": "https://www.youtube.com/watch?v=313505524",
+    "embed": "313505524",
+    "category": "Data Visualization",
+    "attendees": 67,
+    "description": "An in-depth dive into advanced ggplot2 techniques, themes, and customisation for publication-ready charts.",
+    "slides": ""
+  },
+  {
+    "date": "2026-02-25",
+    "title": "Outgrowing Your Laptop with R and Positron",
+    "speaker": "Julia Silge",
+    "youtube": "https://www.youtube.com/watch?v=sPZsH0eaUpQ",
+    "embed": "sPZsH0eaUpQ",
+    "category": "Cloud & Workflow",
+    "attendees": 51,
+    "description": "Exploring cloud computing, Posit Workbench, and the new Positron IDE for scalable R workflows.",
+    "slides": ""
+  },
+  {
+    "date": "2025-10-25",
+    "title": "Coding Against Cancer: R for Breast Cancer Detection",
+    "speaker": "Ifeoma Egbogah",
+    "youtube": "https://www.youtube.com/watch?v=u68SYMcoH48",
+    "embed": "u68SYMcoH48",
+    "category": "Applied Data Science",
+    "attendees": 15,
+    "description": "Using R to analyse anthropometric data and build models for early breast cancer detection.",
+    "slides": "https://ifydatatalks.netlify.app/webinar/breast_cancer.html"
+  },
+  {
+    "date": "2025-09-17",
+    "title": "Easy Code-based Data Visualization with tidyplots",
+    "speaker": "Jan Broder Engler",
+    "youtube": "https://www.youtube.com/watch?v=OSPtIaqD0v4",
+    "embed": "OSPtIaqD0v4",
+    "category": "Data Visualization",
+    "attendees": 29,
+    "description": "An introduction to the tidyplots package — elegant, reproducible plots with minimal code.",
+    "slides": "https://jbengler.github.io/tidyplots/"
+  }
+]
