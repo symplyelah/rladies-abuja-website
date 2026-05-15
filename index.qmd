@@ -258,7 +258,6 @@ document.addEventListener("DOMContentLoaded", () => {
       <a href="https://r-consortium.org/" target="_blank" class="sponsor-logo">🏛️ &nbsp; R Consortium</a>
       <a href="https://rladies.org" target="_blank" class="sponsor-logo">💜 &nbsp; R-Ladies Global</a>
       <a href="https://www.business-datalab.com" target="_blank" class="sponsor-logo">📊 &nbsp; Business Data Laboratory</a>
-      <a href="https://linuxfoundation.org/" target="_blank" class="sponsor-logo">🐧 &nbsp; Linux Foundation</a>
     </div>
   </div>
 </section>
