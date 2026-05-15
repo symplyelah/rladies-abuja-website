@@ -1,3 +1,11 @@
-[build]
-  command = "quarto check && quarto render"
-  publish = "_site"
+[build] 
+ command = "quarto render" 
+ publish = "_site" 
+
+[build.environment] 
+ QUARTO_VERSION = "1.5.56" 
+
+[[redirects]] 
+ from = "/*" 
+ to = "/index.html" 
+ status = 404
